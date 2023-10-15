@@ -1,0 +1,26 @@
+.address_add{
+    float: right;
+}
+.add_add{
+    padding-top: 200px;
+}
+
+h2{
+    color: crimson;
+}
+
+p{
+    background-color: magenta;
+}
+
+li{
+    background-color: blue;
+}
+
+dd{
+    background-color: cyan;
+}
+
+address{
+    color: blue;
+}
