@@ -1,0 +1,131 @@
+/* body {
+    background: conic-gradient(
+       from 50deg,
+       #000 10%,
+       #8ce 10%,
+       #8ce 20%,
+       #31e 20%,
+       #9f9 30%,
+       #fcc 40%,
+       #fcc 40%,
+       #f0f 50%,
+       #f0f 50%,
+       #a22 60%,
+       #a22 60%,
+       #fa0 70%,
+       #fa0 70%,
+       #f00 80%,
+       #f00 80%,
+       #000 90%,
+       #000 90%
+    );
+ } */
+
+
+ .image1:hover{
+    filter: blur(8px);
+    cursor: pointer;   
+
+}
+
+.image2:hover{
+    filter: brightness(220%);
+    cursor: pointer;
+}
+
+.image3:hover{
+    filter: drop-shadow(15px 15px 15px black);
+    cursor: pointer;
+
+}
+
+.image4:hover{
+    filter: grayscale(30);
+    cursor: pointer;
+
+}
+
+.image5:hover{
+    filter: hue-rotate(50deg);
+    cursor: pointer;
+
+}
+
+.image6:hover{
+    filter: invert(60%);
+    cursor: pointer;
+
+}
+
+.image7:hover{
+    filter:opacity(50%) ;
+    cursor: pointer;
+
+}
+
+.image8:hover{
+    filter: saturate(50%);
+    cursor: pointer;
+
+}
+.image9:hover{
+    filter: sepia(55%);
+    cursor: pointer;
+
+}
+
+.card{
+
+    background-image: url(./Media/b9e347dd-1453-4b79-ab6a-df00d053d71a\ \(1\).jpeg);
+    height: 500px;
+    width: 500px;
+    margin-left: 100px;
+
+
+}
+
+h2{
+    color: white;
+    text-align: center;
+
+}
+
+h2:hover{
+    color: red;
+    text-decoration: underline;
+}
+
+text1{
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-right: 150px;
+    text-decoration: underline;
+}
+
+.tt{
+    
+    margin-left: 50px;
+    font-size: 80px;
+    text-decoration: none;
+    filter: drop-shadow(10px 10px 10px black);
+}
+
+.tt1{
+    margin-left: 90px;
+    font-size: 30px;
+    text-decoration: none;
+    
+}
+
+.tt2{
+    margin-left: 170px;
+    font-size: 80px;
+    text-decoration: none;
+    filter: drop-shadow(10px 10px 10px black);
+}
+
+#images{
+    padding-left: 90px;
+}
