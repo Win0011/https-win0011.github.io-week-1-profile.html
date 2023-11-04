@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./docu.css">
+    <title>Document</title>
+  </head>
+  <body>
+    <nav id="navbar">
+      <header>Technical Documentation</header>
+      <a class="nav-link" href="#JavaScript">JavaScript</a>
+      <a class="nav-link" href="#HTML">HTML</a>
+      <a class="nav-link" href="#Tailwind_CSS">Tailwind CSS</a>
+      <a class="nav-link" href="#CSS">CSS</a>
+      <a class="nav-link" href="#React">React</a>
+    </nav>
+    <main id="main-doc">
+      <section class="main-section" id="JavaScript">
+        <header>JavaScript</header>
+        <p>
+          JavaScript, often abbreviated as JS, is a programming language that is
+          one of the core technologies of the World Wide Web, alongside HTML and
+          CSS. As of 2023, 98.7% of websites use JavaScript on the client side
+          for webpage behavior, often incorporating third-party libraries.
+        </p>
+        <p>
+          JavaScript is primarily used for web development. It is a dynamic,
+          client-side scripting language that can be embedded in web pages.
+        </p>
+        <p>
+          JavaScript is commonly used for client-side scripting in web
+          development.
+        </p>
+        <p>Here's a JavaScript example:</p>
+        <code> function greet() { console.log('Hello, world!'); } </code>
+      </section>
+      <section class="main-section" id="HTML">
+        <header>HTML</header>
+        <p>
+          The HyperText Markup Language or HTML is the standard markup language
+          for documents designed to be displayed in a web browser. It defines
+          the meaning and structure of web content. It is often assisted by
+          technologies such as Cascading Style Sheets and scripting languages
+          such as JavaScript.
+        </p>
+        <p>Here's a simple HTML example:</p>
+        <code>
+          <html>
+            <head>
+              <title>My Web Page</title>
+            </head>
+            <body>
+              <h1>Welcome to My Web Page</h1>
+              <p>This is a sample paragraph.</p>
+            </body>
+          </html>
+        </code>
+      </section>
+      <section class="main-section" id="CSS">
+        <header>CSS</header>
+        <p>
+          Cascading Style Sheets is a style sheet language used for describing
+          the presentation of a document written in a markup language such as
+          HTML or XML. CSS is a cornerstone technology of the World Wide Web,
+          alongside HTML and JavaScript.
+        </p>
+        <p>And here's a basic CSS example to style page:</p>
+        <code> h1 { color: blue; } p { font-size: 16px; } </code>
+      </section>
+      <section class="main-section" id="Tailwind_CSS">
+        <header>Tailwind CSS</header>
+        <p>
+          Tailwind CSS is an open source CSS framework. The main feature of this
+          library is that, unlike other CSS frameworks like Bootstrap, it does
+          not provide a series of predefined classes for elements such as
+          buttons or tables.
+        </p>
+        <p>Here's a simple Tailwind CSS example:</p>
+        <code>
+          <body>
+            <div class="bg-blue-500 text-white p-4">
+              <h1 class="text-3xl font-semibold">Hello, Tailwind CSS!</h1>
+            </div>
+          </body>
+        </code>
+      </section>
+      <section class="main-section" id="React">
+        <header>React</header>
+        <p>
+          React is a free and open-source front-end JavaScript library for
+          building user interfaces based on components. It is maintained by Meta
+          and a community of individual developers and companies. React can be
+          used to develop single-page, mobile, or server-rendered applications
+          with frameworks like Next.js.
+        </p>
+        <p>Here's how to start a React project:</p>
+        <p>
+          First, create a new React app using Create React App (a popular tool
+          for quickly setting up a React project):
+        </p>
+        <code> npx create-react-app my-react-app cd my-react-app </code>
+        <!-- Replace my-react-app with your desired project name. -->
+        <p>
+          Now, open the project in your code editor. In the src directory,
+          you'll find a file called App.js. Replace its content with the
+          following example:
+        </p>
+        <code>
+          import React from 'react'; function App() { return (
+          <div>
+            <h1>Hello, React!</h1>
+            <p>This is a basic React example.</p>
+          </div>
+          ); } export default App;
+        </code>
+        <p>Now, to see your React app in action, open your terminal and run:</p>
+        <code>npm run dev</code>
+        <p>
+          This will start the development server, and you can access your React
+          app in your web browser at http://localhost:3000. You should see
+          "Hello, React!" displayed on the page.
+        </p>
+      </section>
+    </main>
+  </body>
+</html>
