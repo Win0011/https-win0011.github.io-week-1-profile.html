@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Survey-form</title>
+    <link rel="stylesheet" href="survey.css">
+  </head>
+  <body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">
+      Please fill out this form to help us improve our service
+    </p>
+    <form id="Survey-form" action="#" method="post">
+      <div>
+        <label id="name-label" for="name">Name:</label>
+        <input type="text" id="name" placeholder="Enter your name: " required />
+      </div>
+      <div>
+        <label for="email" id="email-label">Email:</label>
+        <input
+          type="email"
+          id="email"
+          name="name"
+          placeholder="Enter your email:"
+          required
+        />
+      </div>
+      <div>
+        <label for="number" id="number-label">Age:</label>
+        <input
+          type="number"
+          id="number"
+          name="number"
+          placeholder="Enter your age:"
+          required
+          max="99"
+          min="18"
+        />
+      </div>
+      <div>
+        <label for="dropdown">Country:</label>
+        <select name="dropdown" id="dropdown">
+          <option value="Nigeria">Nigeria</option>
+          <option value="Ghana">Ghana</option>
+          <option value="Kenya">Kenya</option>
+          <option value="South Africa">South Africa</option>
+        </select>
+      </div>
+      <div>
+        <p>Are you satisfied with our service</p>
+        <input type="radio" name="radio" id="radio-1" value="Very satisfied" />
+        <label for="radio-1">Very satisfied</label><br />
+        <input
+          type="radio"
+          name="radio"
+          id="radio-2"
+          value="Somewhat satisfied"
+        />
+        <label for="radio-2">Somewhat satisfied</label><br />
+        <input type="radio" name="radio" id="radio-3" value="Not satisfied" />
+        <label for="radio-3">Not satisfied</label>
+      </div>
+      <div>
+        <p>Which features do you like the most?</p>
+        <input type="checkbox" name="checkbox" value="Speed" id="checkbox-1" />
+        <label for="checkbox-1">Speed</label><br />
+        <input type="checkbox" name="checkbox" value="Design" id="checkbox-2" />
+        <label for="checkbox-2">Design</label><br />
+        <input
+          type="checkbox"
+          name="checkbox"
+          value="Reliability"
+          id="checkbox-3"
+        />
+        <label for="checkbox-3">Reliability</label><br />
+        <input
+          type="checkbox"
+          name="checkbox"
+          value="Security"
+          id="checkbox-4"
+        />
+        <label for="checkbox-4">Security</label>
+      </div>
+      <div>
+        <label for="comments">Any additional comments or suggestions?</label>
+        <textarea name="comments" id="comments" cols="50" rows="4" placeholder="Type your comments here"></textarea>
+      </div>
+      <div>
+        <button id="submit" type="submit">Submit</button>
+      </div>
+    </form>
+  </body>
+</html>
