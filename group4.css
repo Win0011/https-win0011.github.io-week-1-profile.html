@@ -1,4 +1,4 @@
-/* body {
+ body {
     background: conic-gradient(
        from 50deg,
        #000 10%,
@@ -19,7 +19,7 @@
        #000 90%,
        #000 90%
     );
- } */
+ } 
 
 
  .image1:hover{
